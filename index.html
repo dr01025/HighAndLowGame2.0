@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>連続High&Lowゲーム</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <img src="img/background.png" alt="High&Lowゲーム ハイレベル">
+    <div class="container">
+
+        <div class="discription">
+            <h2>　ルール説明</h2>
+            <p>通常のHigh&Lowゲームは、<br>
+                出ている数字より次出る数字が大きい（High）か小さい(Low)か（または同じ）を当てるゲームです。<br>
+                今回の〇〇High&Lowゲームは一味違います。<br>
+                事前に何回連続で正解するかを決めます。<br>
+                プレイヤーは順番に「決められた回数連続で」当てられるまで挑戦し続けます。<br>
+                ※途中で間違えたらやり直しです。<br>
+                クリアしたら次のプレーヤーに代わります。<br>
+                罰ゲームを決めたて楽しんでみてください。<br>
+            </p>
+        </div>
+        <div class="startmenu">
+            <h2>　スタートメニュー</h2>
+            <form action="web/game.php" method="get">
+                <p><label>挑戦枚数：
+                        <select name="setNumber">
+                            <option value="1">1枚</option>
+                            <option value="2">2枚</option>
+                            <option value="3">3枚</option>
+                            <option value="4">4枚</option>
+                            <option value="5">5枚</option>
+                            <option value="6">6枚</option>
+                            <option value="7">7枚</option>
+                            <option value="8">8枚</option>
+                            <option value="9">9枚</option>
+                            <option value="10">10枚</option>
+                        </select>
+                        <p><input type="submit" class="btn" value="ゲームを開始する"></p>
+                    </label></p>
+
+            </form>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

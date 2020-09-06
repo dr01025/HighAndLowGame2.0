@@ -1,0 +1,115 @@
+header {
+  font-size:20px;
+  border-bottom:solid 2px black;
+}
+
+header h1 {
+  margin:0 auto;
+}
+
+header p {
+  margin:0 auto;
+}
+
+body {
+  text-align:center;
+  margin:0;
+}
+
+.card {
+  display:inline-flex;
+}
+
+.btn {
+  width:200px;
+  font-size:18px;
+}
+
+.sorry {
+  font-size:30px;
+  background-color:blue;
+  padding:5px 30px;
+  display:inline-block;
+  margin:0 auto;
+  border:double 10px black;
+  color:white;
+  margin:10px auto;
+}
+
+.now {
+  font-size:30px;
+  margin:10px auto;
+  font-weight:bold;
+}
+
+.deck {
+  font-size:30px;
+}
+
+.right {
+  font-size:30px;
+  background-color:red;
+  padding:5px 30px;
+  display:inline-block;
+  margin:0 auto;
+  border:double 10px black;
+  color:white;
+  margin:10px auto;
+}
+
+.bluebtn {
+  text-decoration: none;
+  display:block;
+  text-align: center;
+  font-size: 20px;
+  background: #08c;
+  border-radius:4px;
+  padding: 12px;
+  color: #fff;
+  width:250px;
+
+}
+
+.bluebtn:hover {
+  opacity:0.8;
+}
+
+.btn:hover {
+  opacity:0.7;
+}
+
+.pass {
+  font-size:70px;
+  margin:10px auto;
+}
+
+.answerform {
+  width:250px;
+  margin:0 auto;
+}
+
+fieldset {
+  width:400px;
+  margin:15px auto;
+}
+
+.field {
+  background-color:green;
+  color:white;
+  padding:30px 0;
+}
+.next img{
+  border-radius: 12px;
+}
+.nowCardInfo {
+  background-color:gray;
+}
+
+/* カード */
+.card img {
+  width:200px;
+}
+
+fieldset {
+  width:300;
+}

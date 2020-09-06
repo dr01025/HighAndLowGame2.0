@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+
+img {
+    width:100%;
+}
+
+h2 {
+    width:300px;
+    background-color:gray;
+    color:white;
+}
+
+.container {
+    padding:10px 50px;
+}
+
+.btn {
+    width:200px;
+    font-size:18px;
+  }
+
+.startmenu form {
+    font-size:20px;
+}
